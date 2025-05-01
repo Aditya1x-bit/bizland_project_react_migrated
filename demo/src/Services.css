@@ -1,0 +1,34 @@
+.i_serv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    top: 0;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    color: white;
+    background-color: #106EEA;
+    border-radius: 4px;
+    margin-top: 80px;
+}
+
+#services .card {
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+#services .card-title {
+    transition: color 0.3s ease-in-out;
+}
+
+#services .card:hover {
+    border-color: #007bff; /* Changes the border color on hover */
+}
+  
+#services .card:hover .card-title {
+    color: #007bff; /* Changes the title color on hover */
+}
+  
+.card-link-1{
+    text-decoration: none;
+}

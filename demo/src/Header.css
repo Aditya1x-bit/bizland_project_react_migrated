@@ -1,0 +1,29 @@
+/* Navbar */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+.navbar-nav .nav-link:hover
+{
+    color: #007bff;
+}
+.navbar-nav .nav-link.active {
+    color: #007bff !important;
+    font-weight: bold;
+  }
+
+/* Dropdown Styling */
+.nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}

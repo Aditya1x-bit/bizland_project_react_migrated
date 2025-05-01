@@ -1,0 +1,22 @@
+.carousel-caption{
+    left: 0 !important;
+    bottom: 0 !important;
+    opacity: 0;
+    height: 40px;
+    padding: 6px !important;
+    background: rgba(255, 255, 255, 0.82);
+    transition: 0.3s ease-in-out;
+}
+
+#team .card:hover .carousel-caption{
+    opacity: 1;
+}
+
+#team .card .carousel-caption a i{
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+#team .card .carousel-caption a:hover i{
+    color: #106eea !important;
+}

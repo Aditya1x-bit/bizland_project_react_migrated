@@ -1,0 +1,14 @@
+topbar div div div span a:hover
+{
+    text-decoration: underline !important; 
+}
+
+.topb
+{
+    transition: 0.3s ease-in-out;
+}
+
+.topb:hover
+{
+    color: white !important;
+}

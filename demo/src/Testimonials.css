@@ -1,0 +1,40 @@
+.testimonial{
+    position: relative;
+    background: url('../public/media/images/testimonials-bg.jpg') center/cover no-repeat;
+    height: 64vh;
+}
+.img-test{
+    border: 7px solid rgba(255, 255, 255, 0.181);
+    margin: 64px 0px 10px 0px;
+}
+.test-bg{
+    background-color: rgba(0, 0, 0, 0.73);
+    height: 100%;
+}
+.quote-icon-left{
+    display: inline-block;
+    left: -5px;
+    position: relative;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.64);
+}
+.quote-icon-right{
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+    transform: scale(-1, -1);
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.btn-test{
+    width: 10px !important;
+    height: 10px !important;
+    margin-bottom: 37px;  
+}
+
+.test-text{
+    width: 64%;
+    line-height: 1;
+}

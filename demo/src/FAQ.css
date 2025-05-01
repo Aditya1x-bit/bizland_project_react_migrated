@@ -1,0 +1,35 @@
+#faq .accordion{
+    width: 71%;
+    justify-self: center;
+}
+
+#faq .accordion .accordion-item{
+margin-bottom: 19px;
+border-radius: 5px !important;
+overflow: hidden;
+}
+
+#faq .accordion .accordion-item .accordion-header .accordion-button:focus{
+box-shadow: none !important;
+}
+
+#faq .accordion .accordion-item .accordion-body{
+padding-top: 0;
+padding-bottom: 0;
+transition: .3s ease-in-out;
+}
+
+#faq .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed), #faq .accordion .accordion-item{
+color: white;
+background-color: #106EEA;
+--bs-accordion-btn-active-icon: none;
+--bs-accordion-border-color: none;
+}
+
+#faq .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed):hover{
+color: white;
+}
+
+#faq .accordion .accordion-item .accordion-header .accordion-button:hover{
+color: #106EEA;
+}
