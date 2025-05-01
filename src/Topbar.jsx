@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 
 function Topbar() {
   return (
-    <topbar>
       <div className="bg-primary text-white text-center py-2">
         <div className="container d-flex justify-content-between">
           <div>
@@ -25,7 +24,6 @@ function Topbar() {
           </div>
         </div>
       </div>
-    </topbar>
   )
 }
 

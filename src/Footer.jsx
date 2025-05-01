@@ -49,10 +49,10 @@ function Footer() {
             <div className="col-lg-2 col-md-3 footer-links">
                 <ul>
                 <h4>Our Services</h4>
-                <li><i className="bi bi-chevron-right"></i> <a href="/">Web Design</a></li>
-                <li><i className="bi bi-chevron-right"></i> <a href="/">Web Development</a></li>
-                <li><i className="bi bi-chevron-right"></i> <a href="/">Product Management</a></li>
-                <li><i className="bi bi-chevron-right"></i> <a href="/">Marketing</a></li>
+                <li><i className="bi bi-chevron-right"></i> <NavLink to="/">Web Design</NavLink></li>
+                <li><i className="bi bi-chevron-right"></i> <NavLink to="/">Web Development</NavLink></li>
+                <li><i className="bi bi-chevron-right"></i> <NavLink to="/">Product Management</NavLink></li>
+                <li><i className="bi bi-chevron-right"></i> <NavLink to="/">Marketing</NavLink></li>
                 </ul>
             </div>
     
@@ -60,10 +60,10 @@ function Footer() {
                 <h4>Follow Us</h4>
                 <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
                 <div className="social-links d-flex">
-                <a href=""><i className="bi bi-twitter-x"></i></a>
-                <a href=""><i className="bi bi-facebook"></i></a>
-                <a href=""><i className="bi bi-instagram"></i></a>
-                <a href=""><i className="bi bi-linkedin"></i></a>
+                <NavLink to="/"><i className="bi bi-twitter-x"></i></NavLink>
+                <NavLink to="/"><i className="bi bi-facebook"></i></NavLink>
+                <NavLink to="/"><i className="bi bi-instagram"></i></NavLink>
+                <NavLink to="/"><i className="bi bi-linkedin"></i></NavLink>
                 </div>
             </div>
     
