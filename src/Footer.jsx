@@ -25,7 +25,7 @@ function Footer() {
         <div className="container footer-top">
             <div className="row gy-4">
                 <div className="col-lg-4 col-md-6 footer-about">
-                    <a href="./" className="d-flex align-items-center">
+                    <a href="/" className="d-flex align-items-center">
                         <span className="sitename">BizLand</span>
                     </a>
                     <div className="footer-contact pt-3">
